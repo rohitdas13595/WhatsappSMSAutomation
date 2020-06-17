@@ -7,7 +7,7 @@ def send_notice():
     message = client.messages.create(
                                   from_='whatsapp:+14155238886',
                                   body='Attention Hi Dear!',
-                                  to='whatsapp:+919887407475'
+                                  to='whatsapp:phone_no with_countrycode'
                               )
 
     print(message.sid)
